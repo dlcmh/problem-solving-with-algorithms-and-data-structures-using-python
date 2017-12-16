@@ -1,4 +1,5 @@
-# [1] Assumes search is done in an ordered list.
+# [1] Assumes search is done in an ordered list. Binary search allows for
+#     searches in logarithmic time.
 # [2] If the middle item is the one being searched, we are done.
 # [3] If the searched item is smaller than the middle item, we can eliminate the
 #     middle item as well as the entire upper half of the list since the item,
