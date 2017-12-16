@@ -1,9 +1,9 @@
 # [1] Assumes search is done in an ordered list.
-# [2] If middle item is the one being searched, we are done
-# [3] If searched item is smaller than the middle item, we can eliminate the
+# [2] If the middle item is the one being searched, we are done.
+# [3] If the searched item is smaller than the middle item, we can eliminate the
 #     middle item as well as the entire upper half of the list since the item,
 #     if it is in the list, must be in the lower half.
-# [4] If searched item is larger than the middle item, we can eliminate the
+# [4] If the searched item is larger than the middle item, we can eliminate the
 #     middle item as well as the entire lower half of the list since the item,
 #     if it is in the list, must be in the upper half.
 
